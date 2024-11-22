@@ -26,7 +26,7 @@ build_meta() {
   # (1) Just a version number with quote ("")
   # (2) A YAML key in values.yaml file
   cat > $META_FILE <<EOF
-https://github.com/harvester/harvester-installer $INSTALLER_BRANCH "$(get_installer_tag)"
+https://github.com/GSGBen/harvester-installer $INSTALLER_BRANCH "$(get_installer_tag)"
 https://github.com/harvester/network-controller-harvester master .harvester-network-controller.image.tag
 https://github.com/harvester/node-manager master .harvester-node-manager.image.tag
 https://github.com/harvester/node-disk-manager master .harvester-node-disk-manager.image.tag
